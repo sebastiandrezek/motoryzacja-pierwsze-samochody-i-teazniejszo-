@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Motoryzacja - Start</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{margin:0;font-family:Segoe UI,Arial;background:linear-gradient(180deg,#0f1220,#0b0d17);color:#eaeaea;overflow-x:hidden;}
+a{text-decoration:none;}
+
+/* Zakładki */
+.navbar{display:flex;justify-content:center;gap:20px;padding:15px;background:rgba(15,18,32,0.85);backdrop-filter:blur(10px);position:sticky;top:0;z-index:100;}
+.navbar a{color:white;font-weight:600;padding:10px 20px;border-radius:10px;transition:all 0.3s ease;}
+.navbar a:hover{background:linear-gradient(90deg,#ff8c00,#ffd27f);color:#0b0d17;transform:translateY(-3px);}
+
+/* Nagłówek */
+header{text-align:center;padding:60px 20px;}
+header h1{font-size:52px;background:linear-gradient(90deg,#ff8c00,#ffd27f);-webkit-background-clip:text;-webkit-text-fill-color:transparent;opacity:0;transform:translateY(-50px);animation:fadeDown 1.5s forwards;}
+header p{font-size:20px;opacity:0;max-width:800px;margin:auto;margin-top:20px;transform:translateY(50px);animation:fadeUp 1.5s forwards 1s;}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-50px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(50px);}to{opacity:1;transform:translateY(0);}}
+
+/* Sekcje */
+section{max-width:1100px;margin:60px auto;padding:50px;background:linear-gradient(135deg,#1f2a44,#2b3c66);border-radius:25px;box-shadow:0 30px 60px rgba(0,0,0,0.5);opacity:0;transform:translateY(40px);animation:fadeSection 1s forwards;animation-delay:0.5s;}
+@keyframes fadeSection{to{opacity:1;transform:translateY(0);}}
+
+/* Karty */
+.karta{background:linear-gradient(90deg,#ff8c00,#ffd27f);border-radius:20px;padding:30px;margin:30px 0;text-align:center;font-size:24px;font-weight:700;transition:transform 0.3s, box-shadow 0.3s;}
+.karta:hover{transform:scale(1.05);box-shadow:0 20px 40px rgba(0,0,0,0.5);}
+
+/* Ciekawostki */
+.ciekawostki{max-width:1100px;margin:50px auto;padding:30px;background:linear-gradient(135deg,#2b3c66,#1f2a44);border-radius:25px;box-shadow:0 20px 40px rgba(0,0,0,0.4);}
+.ciekawostka{padding:10px 0;border-bottom:1px solid #444;font-size:16px;}
+</style>
+</head>
+<body>
+
+<!-- Zakładki góra -->
+<div class="navbar">
+<a href="index.html">Start</a>
+<a href="historia.html">Historia</a>
+<a href="terazniejsza.html">Terazniejsza</a>
+<a href="przyszlosc.html">Przyszlosc</a>
+</div>
+
+<header>
+<h1>Motoryzacja</h1>
+<p>Od pierwszych samochodow po nowoczesne elektryki i autonomiczne auta</p>
+</header>
+
+<section>
+<h2>Poczatki motoryzacji</h2>
+<p>Pierwsze samochody powstaly w XIX wieku. Karl Benz skonstruowal pierwszy pojazd spalinowy w 1885 roku.</p>
+<div class="karta">🚗 Benz Patent-Motorwagen 1885</div>
+
+<h2>Nowoczesne auta</h2>
+<p>Obecnie samochody elektryczne i autonomiczne zmieniają transport na całym świecie.</p>
+<div class="karta">⚡ Tesla Model 3</div>
+
+<h2>Przyszlosc motoryzacji</h2>
+<p>Samochody autonomiczne, elektryczne i inteligentne miasta.</p>
+<div class="karta">🤖 Autonomiczne auta</div>
+</section>
+
+<!-- Zakładki dół -->
+<div class="navbar">
+<a href="index.html">Start</a>
+<a href="historia.html">Historia</a>
+<a href="terazniejsza.html">Terazniejsza</a>
+<a href="przyszlosc.html">Przyszlosc</a>
+</div>
+
+<!-- Ciekawostki -->
+<div class="ciekawostki">
+<h3>Ciekawostki:</h3>
+<!-- 50+ ciekawostek -->
+<div class="ciekawostka">Pierwszy samochód Benz Patent-Motorwagen miał 3 koła i silnik 0.75 KM.</div>
+<div class="ciekawostka">Henry Ford wprowadził produkcję Modelu T w 1908 roku.</div>
+<div class="ciekawostka">Samochody elektryczne istniały już w XIX wieku.</div>
+<div class="ciekawostka">Tesla Model S przyspiesza 0-100 km/h w 2,1 sekundy.</div>
+<div class="ciekawostka">Autonomiczne auta używają LIDAR, radaru i kamer.</div>
+<div class="ciekawostka">Pierwsze samochody były bardzo drogie i luksusowe.</div>
+<div class="ciekawostka">Silniki spalinowe pierwotnie były hałaśliwe i niebezpieczne.</div>
+<div class="ciekawostka">Pierwsze drogi asfaltowe powstały w XIX wieku.</div>
+<div class="ciekawostka">Pierwszy samochód elektryczny miał zasięg ok. 50 km.</div>
+<div class="ciekawostka">Samochody sportowe zrewolucjonizowały wyścigi i przemysł motoryzacyjny.</div>
+<!-- Dodaj kolejne aż do 50+ -->
+</div>
+
+</body>
+</html>

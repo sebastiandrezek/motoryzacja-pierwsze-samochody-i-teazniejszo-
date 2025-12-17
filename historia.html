@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Motoryzacja - Historia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{margin:0;font-family:Segoe UI,Arial;background:linear-gradient(180deg,#0f1220,#0b0d17);color:#eaeaea;overflow-x:hidden;}
+a{text-decoration:none;}
+.navbar{display:flex;justify-content:center;gap:20px;padding:15px;background:rgba(15,18,32,0.85);backdrop-filter:blur(10px);position:sticky;top:0;z-index:100;}
+.navbar a{color:white;font-weight:600;padding:10px 20px;border-radius:10px;transition:all 0.3s ease;}
+.navbar a:hover{background:linear-gradient(90deg,#ff8c00,#ffd27f);color:#0b0d17;transform:translateY(-3px);}
+header{text-align:center;padding:60px 20px;}
+header h1{font-size:52px;background:linear-gradient(90deg,#ff8c00,#ffd27f);-webkit-background-clip:text;-webkit-text-fill-color:transparent;opacity:0;transform:translateY(-50px);animation:fadeDown 1.5s forwards;}
+header p{font-size:20px;opacity:0;max-width:800px;margin:auto;margin-top:20px;transform:translateY(50px);animation:fadeUp 1.5s forwards 1s;}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-50px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(50px);}to{opacity:1;transform:translateY(0);}}
+section{max-width:1100px;margin:60px auto;padding:50px;background:linear-gradient(135deg,#1f2a44,#2b3c66);border-radius:25px;box-shadow:0 30px 60px rgba(0,0,0,0.5);opacity:0;transform:translateY(40px);animation:fadeSection 1s forwards;animation-delay:0.5s;}
+@keyframes fadeSection{to{opacity:1;transform:translateY(0);}}
+.karta{background:linear-gradient(90deg,#ff8c00,#ffd27f);border-radius:20px;padding:30px;margin:30px 0;text-align:center;font-size:24px;font-weight:700;transition:transform 0.3s, box-shadow 0.3s;}
+.karta:hover{transform:scale(1.05);box-shadow:0 20px 40px rgba(0,0,0,0.5);}
+.ciekawostki{max-width:1100px;margin:50px auto;padding:30px;background:linear-gradient(135deg,#2b3c66,#1f2a44);border-radius:25px;box-shadow:0 20px 40px rgba(0,0,0,0.4);}
+.ciekawostka{padding:10px 0;border-bottom:1px solid #444;font-size:16px;}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<a href="index.html">Start</a>
+<a href="historia.html">Historia</a>
+<a href="terazniejsza.html">Terazniejsza</a>
+<a href="przyszlosc.html">Przyszlosc</a>
+</div>
+
+<header>
+<h1>Historia motoryzacji</h1>
+<p>Od pierwszych wynalazków do rewolucji przemysłowej w produkcji samochodów</p>
+</header>
+
+<section>
+<h2>Początki</h2>
+<p>Pierwsze samochody mechaniczne powstały w XIX wieku.</p>
+<div class="karta">🚗 Karl Benz - 1885</div>
+<div class="karta">🚙 Daimler & Maybach - 1886</div>
+
+<h2>Rozwój masowej produkcji</h2>
+<p>Henry Ford wprowadził produkcję taśmową Modelu T w 1908 roku.</p>
+<div class="karta">🏭 Model T - Ford</div>
+<div class="karta">🔧 Linia montażowa</div>
+</section>
+
+<div class="navbar">
+<a href="index.html">Start</a>
+<a href="historia.html">Historia</a>
+<a href="terazniejsza.html">Terazniejsza</a>
+<a href="przyszlosc.html">Przyszlosc</a>
+</div>
+
+<div class="ciekawostki">
+<h3>Ciekawostki:</h3>
+<div class="ciekawostka">Pierwsze samochody były trójkołowe.</div>
+<div class="ciekawostka">Pierwsze benzynowe silniki miały mniej niż 1 KM.</div>
+<div class="ciekawostka">Pierwsze drogi asfaltowe pojawiły się w XIX wieku.</div>
+<div class="ciekawostka">Pierwsze samochody elektryczne były popularne w miastach.</div>
+<div class="ciekawostka">Linie montażowe zwiększyły produkcję samochodów wielokrotnie.</div>
+<!-- Dodaj kolejne ciekawostki -->
+</div>
+
+</body>
+</html>
